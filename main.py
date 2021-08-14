@@ -14,6 +14,6 @@ qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
 file_name= input("Enter the name of your file: ")
-# print(file_name + ".png")
+print("The name of your file is", file_name + ".png")
 
 img.save(file_name + '.png')
