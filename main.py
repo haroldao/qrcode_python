@@ -13,7 +13,7 @@ qr.add_data(link)
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
-file_name= input("Enter the name of your file")
+file_name= input("Enter the name of your file: ")
 print(file_name + ".png")
 
 # img.save(file_name + '.png')
