@@ -1,5 +1,6 @@
 import qrcode
 from qrcode.constants import ERROR_CORRECT_L
+import read_qrcode
 
 qr = qrcode.QRCode(
   version=3,
