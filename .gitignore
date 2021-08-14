@@ -1,0 +1,5 @@
+*.png
+*.toml
+*.lock
+
+node_modules/
